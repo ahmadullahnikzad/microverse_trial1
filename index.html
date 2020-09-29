@@ -8,8 +8,15 @@
 
   <body>
     <h1 id="title">Survey Form</h1>
-    <p id="explanation"></p>
-    <form id="survey-form" action=""></form>
+    <p id="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam vel, accusamus totam ipsum quos officiis debitis facilis quis recusandae nemo eos dolorum error ullam doloribus, fuga cum iusto placeat?</p>
+    <form id="survey-form" action="">
+    <label for='name'>Name</label>
+    <input type="text" id='name' placeholder="Your name" pattern="[A-Za-z]" required>
+    <label for='name'>Email</label>
+    <input type="email" id='email' placeholder="Your email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"><br>
+    <label for="number">Age(optional)</label><br>
+    <input type="number" name="number" id="number">
+    </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
    
