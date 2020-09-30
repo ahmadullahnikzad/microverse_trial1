@@ -1,0 +1,35 @@
+body{
+    background-repeat: no-repeat;
+    background-color: #0093E9;
+    font-family: sofia pro;
+}
+#title,#description{
+    text-align: center;
+}
+.form-bg{
+    width: min(600px,80%);
+    background-color: white;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: sofia pro;
+}
+.form-bg input[type='text'],input[type='email'],input[type='number'],select,input[type='submit'],textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(221, 221, 221);
+    border-radius: 2px;
+    font-family: sofia pro;
+    margin: 10px 0px;
+}
+.form-bg h1{
+    text-align: center;
+}
+.form-bg label{
+    font-family: sofia pro;
+}
+
